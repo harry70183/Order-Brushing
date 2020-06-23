@@ -14,6 +14,8 @@ For the calculation of the highest proportion of orders to a shop, only include 
 
 In the case where multiple users share the same highest proportion of orders for a specific shop, all those users are deemed to be suspicious buyers.
 
+Please refer to the Examples.png for more specific cases of order brushing.
+
 # Basic Concepts
 Each orderid represents a distinct transcation on Shopee.
 
