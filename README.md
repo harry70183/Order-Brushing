@@ -9,5 +9,14 @@ For the purpose of this question, shops are deemed to have conducted order brush
 ##Concentrate rate = number of Orders within 1 hour / number of unique buyer within 1 hour.
 
 For the purpose of this question, suspicious buyers are deemed as the buyer that contributed the highest proportion of orders to a shop that is deemed to have conducted order brushing.
+
 For the calculation of the highest proportion of orders to a shop, only include the orders that occured in instances when order brushing has been deemed to have taken place.
-In the case where multiple users share the same highest proportion.
+
+In the case where multiple users share the same highest proportion of orders for a specific shop, all those users are deemed to be suspicious buyers.
+
+# Basic Concepts
+Each orderid represents a distinct transcation on Shopee.
+Each unique shopid is a distinct seller on Shopee.
+Each unique userid is a distinct buyer on Shopee.
+Event_Time refers to the exact time that an order was placed on Shopee.
+Concentrate rate is a possible measure that we use to determine whether a shop is likely 
