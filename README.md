@@ -17,6 +17,9 @@ In the case where multiple users share the same highest proportion of orders for
 Please refer to the Examples.png for more specific cases of order brushing.
 
 # Basic Concepts
+
+order_brush_order is the original data from Shopee.
+
 Each orderid represents a distinct transcation on Shopee.
 
 Each unique shopid is a distinct seller on Shopee.
