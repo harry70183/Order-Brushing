@@ -31,11 +31,7 @@ Concentrate rate is a possible measure that we use to determine whether a shop i
 
 Check each shop and determine whether it is deemed to have conducted order brushing. If a shop conducted order brushing, list the userid(s) that are identified as suspicious for the corresponding shopid.
 
-Two columns required:
-
-* shopid
-
-* userid
+Two columns required:shopid, userid
 
 - If a shop is not deemed to have conducted order brushing, assign the value 0.
 
