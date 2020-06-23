@@ -26,3 +26,19 @@ Each unique userid is a distinct buyer on Shopee.
 Event_Time refers to the exact time that an order was placed on Shopee.
 
 Concentrate rate is a possible measure that we use to determine whether a shop is likely to have conducted order brushing. For this question, the thershold of concentrate rate is 3. Any concentrate rate value equal to or greater than 3 is deemed to be an occurance of order brushing.
+
+# Submission Format
+
+Check each shop and determine whether it is deemed to have conducted order brushing. If a shop conducted order brushing, list the userid(s) that are identified as suspicious for the corresponding shopid.
+
+Two columns required:
+
+* shopid
+
+* userid
+
+- If a shop is not deemed to have conducted order brushing, assign the value 0.
+
+- Else, list the userid(s) that are identified as suspicious for the corresponding shopid.
+
+- If there is more than 1 userid identified as suspicious, list all the userids seperated by "&".
