@@ -16,7 +16,11 @@ In the case where multiple users share the same highest proportion of orders for
 
 # Basic Concepts
 Each orderid represents a distinct transcation on Shopee.
+
 Each unique shopid is a distinct seller on Shopee.
+
 Each unique userid is a distinct buyer on Shopee.
+
 Event_Time refers to the exact time that an order was placed on Shopee.
-Concentrate rate is a possible measure that we use to determine whether a shop is likely 
+
+Concentrate rate is a possible measure that we use to determine whether a shop is likely to have conducted order brushing. For this question, the thershold of concentrate rate is 3. Any concentrate rate value equal to or greater than 3 is deemed to be an occurance of order brushing.
